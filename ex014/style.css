@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1 {
+    color: darkmagenta;
+    background-color: yellowgreen;
+    width: 500px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Audios</h1>
+    <p>Vamos aprender a reproduzir audios</p>
+    <audio controls preload="metadata">
+        <source src="midia/the-slow-rabbit-nat-keefe.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <audio controls preload="metadata">
+        <!--O source é tipo um try no python-->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio>
+    <!--Preload= é bem importante. Metadata -> Carrega algumas infos como
+    duração do audio. None -> Não carrega nada.
+    Auto -> Carrega tudo deixando o site mais pesado!
+    Autoplay reproduz na hora. 
+    Controls aparece as opções de controle
+    -->
+</body>
+</html>
