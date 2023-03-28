@@ -1,0 +1,71 @@
+body{
+    background-color: palegoldenrod;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    background-color: white;
+}
+
+
+caption{
+    font-size: 1.5em;
+    padding-bottom: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+} 
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    color: white;
+    background-color: #383838;
+}
+
+td, th{
+    padding: 10px;
+    border: 1px ridge rgb(0, 0, 0); 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    height: 35px;
+    width: auto;
+}
+
+#quadrado{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    transform: translate(50%, 50%);
+}
+.imag{
+    width: 10px;
+}
+
+.number{
+    width: 30px;
+    text-align: right;
+}
+
+.liberta{
+    background-color: green;
+}
+
+.preliberta{
+    background-color: yellow;
+}
+
+.sula{
+    background-color: lightblue;
+}
+
+.rebaixado{
+    background-color: red;
+}

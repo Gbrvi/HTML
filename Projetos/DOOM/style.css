@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root
+{
+    --cor1: #9f2221;
+    --cor2: #000000f6;
+    --cor1: #ffffff;
+}
+
+@font-face {
+    font-family: 'Doom';
+    src: url(fonts/AmazDooMRight.ttf) format('truetype');
+}
+
+
+header{
+    text-align: center;
+    background-color: #9f2221;
+}
+
+header p {
+    text-align: justify;
+    text-align: center;
+    margin-top: -50px;
+    line-height: 1.5em;
+    font-weight: bolder;
+}
+
+h1{
+    font-family: 'Doom', serif;
+    font-size: 4em;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color: aqua;
+}
+
+main{
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    background-color: #ffffff;
+}

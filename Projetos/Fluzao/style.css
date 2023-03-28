@@ -1,0 +1,16 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #01633D; 
+}
+
+p {
+  text-align: justify;  
+}
+
+hr {
+    background-color: black;
+}
+
+h1 {
+   background-color:#6E182C;
+}

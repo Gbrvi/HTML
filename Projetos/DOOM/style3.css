@@ -1,0 +1,15 @@
+main {
+    width: 900px;
+    margin: auto;
+    background-image: url(imagens/doom-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px;
+    color: white;
+}
+
+body{
+    background-color: blueviolet;
+}

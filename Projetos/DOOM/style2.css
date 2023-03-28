@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: non;
+}
+
+
+@font-face {
+    font-family: 'Doom';
+    src: url(fonts/AmazDooMRight.ttf) format('truetype');
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D2523;
+    color: white;
+    gap: 5px;
+
+}
+
+header > h1 {
+    font-family: 'Doom';
+    font-size: 4em;
+    padding-top: 10px;
+    color: white;
+}
+
+body{
+    background-color: black ;
+
+}
+
+main{
+    margin-bottom: 10px;
+}
+
+
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/doom-hero.jpg);
+    background-position: bottom bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.enemies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.enemies-text{
+    color: white;
+    width: 700px;
+    text-align: justify;
+    font-family: 'Arial';
+    line-height: 1.5em;
+}
+
+.enemies-text > h2 {
+    font: normal 3em 'Doom';
+    text-align: center;
+}
+
+.weapons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.weapons-text{
+    color: white;
+    width: 700px;
+    text-align: justify;
+    font-family: 'Arial';
+    line-height: 1.5em;
+}
+
+.weapons-text > h2{
+    font: normal 3em 'Doom';
+    text-align: center;
+}
+
+.weapons-image{
+    display: flex;  
+    align-items: center;  
+}
+
+footer{
+    display: flex;
+    background-color: #2D2523;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Arial';
+    color: white;
+}
+
+.footer-logo-text{
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-logo-text > p{
+    padding-left: 5px;
+    font-family: 'Doom';
+    font-size: 2.1em;
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video > iframe{
+    width: 70vw;
+    height: 70vh;
+}
+
+#almeida-text{
+    background-color: #453932 ;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#almeida-text::after{
+    content: '\00A0\1F517'
+}
+
+#almeida-text > a{
+    color: white;
+    text-decoration: none;
+}
+
+#almeida-text > a:hover{
+    text-decoration: underline;
+}

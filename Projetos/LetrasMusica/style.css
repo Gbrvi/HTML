@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFC800
+}
+
+a:hover{
+    text-decoration: underline;
+    transition-delay: 0.1s;
+    background-color: rgba(17, 17, 15, 0.589);
+    padding: 2px 0px;
+    border-radius: 2px;
+}
+
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+}
+
+header > h1{
+    padding-top: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+
+}
+
+header > p{
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+}
+
+body{
+    background-color: #899878;
+    font-family: 'Lato', sans-serif;
+
+}
+
+main
+{
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 3em;
+    font-size: 1em;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.199);
+}
+
+section.normal{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+section.imagem{
+    background-color: gray;
+    background-image: url(images/wallpaper1000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right right;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.219);
+
+}
+
+footer
+{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}

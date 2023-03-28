@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'IDroid';
+    src: url('/fonts/IDroid.otf') format('opentype'), url('/fonts/IDroid Bold.otf') format('opentype'), url('/fonts/IDroid Bold Italic.otf') format('opentype'), url('/fonts/IDroid\ Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor0: #93EDAB;
+    --cor1: #3BB85C;
+    --cor2: #426B4D;
+    --cor3: #417b50;
+    --cor4: #226B36;
+
+}
+
+body{
+    background-color: var(--cor0);
+    margin: 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: auto;
+    padding: 1em;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    text-shadow: 1px 1px 1px #0000005d;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.226);
+}
+
+header > h1
+{
+    font-family: 'Bebas Neue', 'Times', 'serif';
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+header > p
+{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+nav > p > a:hover{
+    background-color: var(--cor1);
+}
+
+nav > p > a{
+   background-color: var(--cor3);
+   color: var(--cor0);    
+}
+
+
+main{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 1em;
+    border-radius: 13px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.192);
+    
+}
+
+main > h2, h3, h4, h5, h6{
+    font-family: 'IDroid', 'Times', 'serif';
+    background-image: linear-gradient(to right, #93EDAB, #93edab46);
+    padding: 5px;
+    color: #226B36;
+}
+
+#titulo{
+    font-family: 'IDroid', 'Times', 'serif';
+    color: #226B36;
+}
+
+main > article > img{
+    margin: auto;
+    display: block;
+
+}
+
+iframe{
+    margin: auto;
+    display: block;
+}
+
+
+a{
+    background-color: #93EDAB;
+    text-decoration: none;
+    color: var(--cor4);
+    padding: 1px 2px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+span{
+    color: var(--cor1) ;
+    text-decoration: solid;
+}
+
+footer > p{
+    text-align: center;
+    background-color: var(--cor2);
+    padding: 9px;
+    font-family: 'IDroid', 'serif';
+}

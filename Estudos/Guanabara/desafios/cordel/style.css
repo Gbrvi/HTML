@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root{
+    --normal: Verdana, Geneva, Tahoma, san-serif;
+    --conteudo: 'Caveat', cursive;
+    --titulo: 'Ubuntu', sans-serif;
+}
+
+/* Da pra usar o tamanho da fonte com porcentagem de vw ou vh*/
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header p{
+    padding-top: 10px;
+}
+header h1{
+    font-size: 5vw;
+    font-family: var(--titulo);
+
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: bolder;
+}
+
+
+a:hover{
+    transition-delay: 0.5s;
+    background-color: rgba(12, 65, 65, 0.562);
+    padding: 3px 1px;
+    border-radius: 8px;
+    text-decoration: underline;
+}
+
+body{
+    background-color: darkgray
+}
+
+main p{
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3.5em;
+    font-size: 2vw;
+    font-family: var(--conteudo);
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background: white;
+}
+
+section.imagem{
+    background-color: rgba(20, 20, 20, 0.445);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    padding-left: 5px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url(images/background001.jpg);
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url(images/background002.jpg);
+    background-position: right center;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white
+}

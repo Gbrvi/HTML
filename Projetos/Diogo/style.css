@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabeçalho-titulo{
+    font-family: 'Charm', cursive;
+    font-variant: small-caps;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.1em;
+    color: #083C54;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.cabeçalho-menu-item:hover{
+    opacity: 1;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to right, #1395D1, #50AED9);
+}
+
+.conteudo{
+    border-top: 1.7px solid #0E719E;
+    margin-bottom: 40px;
+}
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo_principal_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo_principal_texto{
+    font-family: 'Charm', cursive;
+    font-size: 1.8em;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+.conteudo_principal_texto_subtitulo{    font-family: 'Heebo', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.conteudo_principal_imagem{
+    padding-top: 50px;
+    max-height: 500px;
+}
+
+.conteudo_secundario{
+    background-color: #41525A;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo_secundario_titulo{
+    border-top: 1.7px solid #0E719E;
+    padding-top: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.conteudo_secundario_texto > li{
+    font-family: 'Heebo', sans-serif;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+

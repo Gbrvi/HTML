@@ -1,0 +1,19 @@
+
+body{
+    background-color: #FAAA8D;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+h1 {
+    color: #201E1F ;
+    border: solid 1px #FFE900;
+}
+
+h2 {
+    color: #FF4000;
+}
+
+p{
+    color: #201E1F;
+}
